@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .text-header {
+        @apply font-primary-bold text-2xl p-6 color-dark-blue;
+    }
+}
